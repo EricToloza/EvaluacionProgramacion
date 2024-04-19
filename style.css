@@ -1,0 +1,75 @@
+.listPrin { 
+    background-color: rgb(62, 56, 56); 
+    color: rgb(231, 229, 229); 
+    padding-left: 15%; 
+    list-style: none; 
+    text-align: right; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+} 
+.derechaTitulos{ 
+    padding-right: 0.5%; 
+    margin: 15px 10px; 
+} 
+.listPrin a { 
+    text-decoration: none;
+    font-family: Arial, sans-serif; 
+    color: rgb(244, 239, 239); 
+}
+.TitulosPrincipal-img { 
+    background-image: url("https://www.simelmotors.com/wp-content/uploads/2016/03/1920x700.png");
+    background-size: cover; 
+    color: rgb(244, 241, 241); 
+    padding: 5%; 
+    text-align: center; 
+    font-family: Arial, sans-serif;
+} 
+.boton { 
+    background-color: #301af5; 
+    color: white; 
+    padding: 15px 15px; 
+    border: none; 
+    font-family: Arial, sans-serif; 
+    cursor: pointer; 
+    border-radius: 20px; 
+} 
+.header { 
+    display: flex; 
+    justify-content: space-around;
+    font-family: Arial, sans-serif;
+    align-items: center; 
+    text-align: center; 
+    margin-top: 1%;  
+} 
+.card { 
+    flex-basis: 80%;  
+} 
+.imagen { 
+    width: 50px; 
+    height: auto; 
+    padding-top: 20px; 
+} 
+.nombre { 
+    font-weight: bold; 
+    margin-top: 5px; 
+} 
+.descripcion { 
+    margin-top: 5px; 
+} 
+.secundario { 
+    background-color: rgb(14, 146, 227); 
+    color: white; 
+    font-family: Arial, sans-serif;
+    padding: 10%; 
+    text-align: center; 
+} 
+.button_reg { 
+    background-color: rgb(52, 3, 249); 
+    color: rgb(255, 255, 255);  
+    padding: 12px 24px;  
+    font-family: Arial, sans-serif;
+    border: none; 
+    cursor: pointer; 
+    border-radius: 5px;  
+} 
